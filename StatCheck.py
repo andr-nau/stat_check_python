@@ -1,5 +1,5 @@
-#StatCheck
-#Just test Python code to play with libraries
+# StatCheck
+# Just test Python code to play with libraries
 
 import random
 import statistics
@@ -9,14 +9,14 @@ import matplotlib
 
 b=[]
 
-#Get 10'000 random numbers 0-10 
+# Get 10'000 random numbers 0-10 
 f = open("myfile.txt", "w")
 for i in range(0,10000):
     a=random.randint(1,10)
     b.append(int(a))
     f.write(str(a)+" ")
 
-#Check stats
+# Check stats
 mn = statistics.mean(b)
 mnn = numpy.mean(b)
 med = statistics.median(b)
